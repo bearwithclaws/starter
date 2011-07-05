@@ -10,10 +10,14 @@
 /* Table of Content
 ==================================================
 	#Site Styles
+	
+	
 	#Page Styles
 	#Media Queries
 	#Font-Face */
 	
+body { background:#000;}
+#header, #footer { background:#fff; padding:20px 0;}	
 /* #Site Styles
 ================================================== */
 
