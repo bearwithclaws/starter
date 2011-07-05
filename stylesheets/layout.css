@@ -16,8 +16,31 @@
 	#Media Queries
 	#Font-Face */
 	
-body { background:#000;}
-#header, #footer { background:#fff; padding:20px 0;}	
+body { 
+	background:#000;
+}
+
+#header, #footer, #content { 
+	background:#fff; 
+	padding:20px 0;
+	position: relative;
+}	
+
+#content {
+	background: #222;
+	color: #fff;
+}
+
+span.remarks {
+	color:#ccc;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#content span.remarks {
+	position: relative;
+}
 /* #Site Styles
 ================================================== */
 
