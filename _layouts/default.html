@@ -1,10 +1,13 @@
----
-layout: base
----
-{% include header.html %}
-<div id="content">
-  <div class="container">	
-      {{ content }}
-  </div>
-</div>
-{% include footer.html %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="stylesheets/layout.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <script src="javascripts/jquery-1.6.2.min.js" type="text/javascript"></script>
+  <script src="javascripts/application.js" type="text/javascript"></script>
+</head>
+<body>
+  {{ content }}
+</body>
+</html>
